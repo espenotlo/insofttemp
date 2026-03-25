@@ -19,7 +19,7 @@
     }
     .container {
       max-width: 600px;
-      padding: 20px;
+      padding: 10px;
     }
     h1 {
       font-size: 28px;
@@ -28,9 +28,14 @@
     p {
       margin: 10px 0;
     }
+    .contact-section {
+      padding: 0px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
     .contact {
-      margin-top: 20px;
-      font-weight: bold;
+      width: 300px;
     }
   </style>
 </head>
@@ -41,21 +46,28 @@
     <h1>Under vedlikehold</h1>
     <p>Nettstedet vårt er for øyeblikket utilgjengelig mens vi gjennomfører vedlikehold.</p>
     <p>Vi foreventer å være oppe igjen fortløpende. Takk for tålmodigheten.</p>
-
-    <div class="contact">
-      <h2>Administrasjon</h2>
-      <p>Jan Gunnar Hole</p>
-      <p>Epost: jan.gunnar.hole@insoft.net</p>
-      <p>Tlf: +47 70 25 41 00</p>
-      <p>Adr: Vikøyra Industriområde NO-6230 Sykkylven</p>
+    <br/>
+    <h2>Kontaktinformasjon</h2>
+    <div>
+      <h3>Adresse</h3>
+      <p>Vikøyra Industriområde</p>
+      <p>NO-6230 Sykkylven</p>
     </div>
-    <div class="contact">
-      <h2>Salg</h2>
-      <p>Runar Grøtting</p>
-      <p>Epost: runar.grotting@insoft.net</p>
-      <p>Phone: +47 70 25 41 00</p>
-      <p>Adr: Vikøyra Industriområde NO-6230 Sykkylven</p>
-    </div>
+    <section class="contact-section">
+      <div class="contact">
+        <h3>Administrasjon</h3>
+        <p>Navn: Jan Gunnar Hole</p>
+        <p>Epost: jan.gunnar.hole@insoft.net</p>
+        <p>Tlf: +47 70 25 41 00</p>
+        
+      </div>
+      <div class="contact">
+        <h3>Salg</h3>
+        <p>Navn: Runar Grøtting</p>
+        <p>Epost: runar.grotting@insoft.net</p>
+        <p>Tlf: +47 70 25 41 00</p>
+      </div>
+    </section>
   </div>
 </body>
 </html>
